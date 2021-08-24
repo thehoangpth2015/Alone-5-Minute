@@ -1,0 +1,43 @@
+.container{
+    width: fit-content;
+    margin: auto;
+    padding-top: 100px;
+    font-family: 'Segoe Ui';
+}
+.table{
+    width: fit-content;
+    height: auto;
+    border-collapse: collapse;
+}
+.table th{
+    background-color: #052C52;
+    color: #ce9627;
+    border: 1px solid #DEE2E6;
+    height: 50px;
+}
+.table th sup{
+    color: #E64C3A;
+}
+.table .th01{
+    background: none;
+}
+.table td{
+    width: 120px;
+    border: 1px solid #DEE2E6;
+    height: 50px;
+    padding: 0px 20px;
+}
+.table .button{
+    height: 70px;
+}
+.table .btn{
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    font-family: 'Segoe Ui light';
+    color: #ce9627;
+    background-color: #052C52;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
