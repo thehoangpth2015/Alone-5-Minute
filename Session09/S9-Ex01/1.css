@@ -29,7 +29,7 @@
 }
 .table th{
     padding: 2% 0%;
-    color: white;
+    color: rgba(255, 255, 255, 0.877);
     border-bottom: 0px solid black;
 }
 .tb-head{
@@ -42,7 +42,7 @@
     margin: 0;
 }
 .collum1{
-    color: white;
+    color: rgba(255, 255, 255, 0.877);
     font-weight: bold;
 }
                     /* end table  */
