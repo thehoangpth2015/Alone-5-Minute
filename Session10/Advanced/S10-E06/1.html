@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="1.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="container m-auto">
+        <div class="left-container"></div>
+
+        <div class="contain flex">
+            <div class="left-contain flex flex-col justify-center items-center">
+                <img class="w-40" src="1.png" alt="">
+                <h2 class="text-4xl font-bold my-2">CleanMyCar</h2>
+                <p class="text-xl w-1/2 text-center font-bold mt-4">India's first waterless  car leaning company</p>
+            </div>
+            <div class="right-contain">
+                <div class="help"><p>Need help?</p></div>
+                <form action="annhau.vn" class="form flex flex-col justify-center">
+                    <h2 class="text-5xl text-center mb-10">Login</h2>
+                    <label class=" bd2 text-xl mb-4 w-1/2" for="email">Email</label>
+                    <input class=" bd h-10 bg-black" type="email" id="email" placeholder="joe@gmail.com">
+                    <label class=" bd2 w-1/2 text-xl mb-4 mt-8" for="password">Password</label>
+                    <input class=" bd h-10 bg-black" type="password" id="password" placeholder="Enter your Password">
+                    <a class="text-xl mb-2 mt-4 text-right cursor-pointer" href="">Forgot password?</a>
+                    <input class="btn h-16 rounded-2xl text-3xl" type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+.container{
+    height: 1000px;
+    width: 50%;
+    position: relative;
+    box-shadow: inset 2px 2px 10px rgb(179, 179, 179);
+}
+.left-container{
+    background-color: #19ECB7;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contain{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    box-shadow: 5px 5px 80px rgb(138, 137, 137);
+}   
+.left-contain{
+    width: 37.5%;
+    height: 100%;
+    background-color: #19ECB7;
+}
+.right-contain{
+    color: #19ECB7;
+    position: relative;
+    flex: 1;
+}
+.help{
+    font-size: 17px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+.form{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+}
+.form .bd{
+    border-bottom: 1px solid rgb(81, 82, 3);
+}
+.form .bd2{
+    border-bottom: 1px solid rgb(73, 73, 71);
+}
+.form input::placeholder{
+    font-size: 18px;
+    color: rgb(99, 97, 97);
+    font-style: italic;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.form .btn{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 10%;
+    background-color: transparent;
+    border: 0.5px solid rgb(81, 82, 3);
+    cursor: pointer;
+}
+.form .btn:hover{
+    background-color: #19ECB7;
+    color: white;
+}
